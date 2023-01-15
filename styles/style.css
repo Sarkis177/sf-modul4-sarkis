@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
+
+
+html {
+  background-color: #949C99;
+  text-align: center;
+
+}
+
+.navbar {
+  background-color: #306650;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Roboto Slab", "Times New Roman", Georgia, serif;
+}
+
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  background: #C6CECA;
+  color: black;
+  transition: all 1.5s ease-out;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.aside {
+  display: inline-block;
+  margin: 2px;
+  margin-top: 60px;
+  text-align: center;
+  margin-right: 40px;
+
+}
+
+.main-section {
+  width: 500px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #C6CECA;
+  padding: 30px 50px 30px 50px;
+
+}
+
+.p {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.par {
+  padding: 30px 50px 10px 50px;
+}
+
+ul {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #C6CECA;
+  padding: 0px 50px 30px 50px;
+  list-style: square;
+  font-size: 17px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+address {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #C6CECA;
+  padding: 30px 50px 0px 50px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.headline {
+  font-family: "Roboto Slab", "Times New Roman", Georgia, serif;
+}
+
+.material-icons {
+  color: #306650;
+  margin-right: 10px;
+}
+
+hr {
+  border-color: #306650;
+}
